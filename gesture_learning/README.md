@@ -4,7 +4,7 @@ Learning SDE Using Recurrent Neural Network with Log Signature Features
 Introduction
 ====================================
 Supported structures and features:
-    -LP-Logsig-RNN
+    LP-Logsig-RNN
 
 Chalearn2013 Data:
     http://sunai.uoc.edu/chalearn/
@@ -23,15 +23,14 @@ Structure
 
 Directory:
 
-    model:
-	LP_logsig_rnn.py: construct LP-Logsig-RNN by Keras and model training                     
-	cus_layer.py: customised layers
+`LP_logsig_rnn.py`: construct LP-Logsig-RNN by Keras and model training                     
+`cus_layer.py`: customised layers
 
 
 Model Training
 ====================================
 Usage:
-	python gesture_recognition_example.ipynb
+	python `gesture_recognition_example.ipynb`
 	(Parameter setting are in this file. Details are listed below)
 
 
