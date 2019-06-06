@@ -29,9 +29,6 @@ Directory:
 
 Model Training
 ====================================
-Usage:
-	python `gesture_recognition_example.ipynb`
-	(Parameter setting are in this file. Details are listed below)
-
+`gesture_recognition_example.ipynb`: notebook of gesture learning
 
 	
