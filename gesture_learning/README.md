@@ -5,6 +5,8 @@ Introduction
 ====================================
 Supported structures and features:
     LP-Logsig-RNN
+    
+Supported gesture data size: (sample_size, temporal_size, spatial_size)
 
 Chalearn2013 Data:
     http://sunai.uoc.edu/chalearn/
