@@ -25,6 +25,7 @@ Structure
 ====================================
 
 Directory:
+
 data preprocessing:
 
 `GetSeqMnistData.py`: preprocessing pen-digit 
