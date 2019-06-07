@@ -38,9 +38,6 @@ Model Training
 `Pen-digit_learning_example.ipynb`: notebook of Pen-digit learning
 
 Settings:
-	> functions:
-	model3 = Model(params): model initialisation
-	fixed_error_result_model3 = model3.BuildModelKerasMn(): model training using Keras
 
 	> parameters:
 	'deg_of_sig': degree of log signature features; 
