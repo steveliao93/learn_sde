@@ -26,10 +26,13 @@ Structure
 
 Directory:
 data preprocessing:
+
 `GetSeqMnistData.py`: preprocessing pen-digit 
 
 model:
+
 `LSTM_Learning_Lib.py`: construct Recurrent Neural Network by Keras
+
 `FeatureSetCalculation_Lib.py`: compute log signatures for simulated sample paths
 
 
