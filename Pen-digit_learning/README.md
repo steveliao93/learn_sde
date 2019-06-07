@@ -32,7 +32,7 @@ model:
 `LSTM_Learning_Lib.py`: construct Recurrent Neural Network by Keras
 `FeatureSetCalculation_Lib.py`: compute log signatures for simulated sample paths
 
-====================================
+
 Model Training
 ====================================
 `Pen-digit_learning_example.ipynb`: notebook of Pen-digit learning
