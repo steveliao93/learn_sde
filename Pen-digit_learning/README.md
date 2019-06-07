@@ -1,6 +1,6 @@
 Model for Pen-digit data
 
-====================================
+
 Introduction
 ====================================
 Supported structures and features:
@@ -12,7 +12,7 @@ Supported structures and features:
 Pen-digit data:
     https://archive.ics.uci.edu/ml/machine-learning-databases/pendigits/
 
-====================================
+
 Requirements
 ====================================
 1. Python 3
@@ -20,29 +20,24 @@ Requirements
 3. Tensorflow
 4. esig
 
-====================================
+
 Structure
 ====================================
 
 Directory:
-    data preprocessing:
-        GetSeqMnistData.py: preprocessing pen-digit 
+data preprocessing:
+`GetSeqMnistData.py`: preprocessing pen-digit 
 
-    model:
-	LSTM_Learning_Lib.py: construct Recurrent Neural Network by Keras
-	TestPen.py: script for parameter setting and model training
-	FeatureSetCalculation_Lib.py: compute log signatures for simulated sample paths
+model:
+`LSTM_Learning_Lib.py`: construct Recurrent Neural Network by Keras
+`FeatureSetCalculation_Lib.py`: compute log signatures for simulated sample paths
 
 ====================================
 Model Training
 ====================================
-Usage:
-	python TestPen.py
-	(Parameter setting are in this file. Details are listed below)
+`Pen-digit_learning_example.ipynb`: notebook of Pen-digit learning
 
 Settings:
-
--- TestPen.py:
 	> functions:
 	model3 = Model(params): model initialisation
 	fixed_error_result_model3 = model3.BuildModelKerasMn(): model training using Keras
