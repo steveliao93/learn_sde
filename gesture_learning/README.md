@@ -1,5 +1,3 @@
-Learning SDE Using Recurrent Neural Network with Log Signature Features
-
 
 Introduction
 ====================================
