@@ -17,10 +17,10 @@ from keras.callbacks import ReduceLROnPlateau, ModelCheckpoint, EarlyStopping
 from cus_layers import *
 
 
-# Model construct
+
 def build_lin_Logsig_rnn_model(input_shape, n_hidden_neurons, output_shape, no_of_segments, deg_of_logsig, learning_rate, drop_rate1, drop_rate2, filter_size):
     """
-	The LP_logsig_rnn model
+	Construct the LP_logsig_rnn model using the customized operations CLF, Cat_T and PS from cus_layers.py
     """
     logsiglen = iisignature.logsiglength(filter_size,deg_of_logsig)
 
